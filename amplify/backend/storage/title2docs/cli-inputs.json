@@ -1,0 +1,13 @@
+{
+  "resourceName": "title2docs",
+  "policyUUID": "57b86fe8",
+  "bucketName": "title2",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -1,0 +1,90 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+import * as React from "react";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
+import { FlexProps, IconProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
+export declare type SubmissionFormStep1OverridesProps = {
+    "1"?: PrimitiveOverrideProps<TextProps>;
+    "2"?: PrimitiveOverrideProps<TextProps>;
+    "3"?: PrimitiveOverrideProps<TextProps>;
+    "4"?: PrimitiveOverrideProps<TextProps>;
+    SubmissionFormStep1?: PrimitiveOverrideProps<ViewProps>;
+    "Get a project quote"?: PrimitiveOverrideProps<TextProps>;
+    "Rectangle 4276"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 37319"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 3714637662775"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 43237662776"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 427737662777"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 4137662781"?: PrimitiveOverrideProps<ViewProps>;
+    Vector37662782?: PrimitiveOverrideProps<IconProps>;
+    Vector37662783?: PrimitiveOverrideProps<IconProps>;
+    "01/01/2020"?: PrimitiveOverrideProps<TextProps>;
+    "(123) 456 - 7890"?: PrimitiveOverrideProps<TextProps>;
+    Date?: PrimitiveOverrideProps<TextProps>;
+    "Phone Number"?: PrimitiveOverrideProps<TextProps>;
+    "Rectangle 43537662788"?: PrimitiveOverrideProps<ViewProps>;
+    "john.doe@gmail.com"?: PrimitiveOverrideProps<TextProps>;
+    "Contact Email"?: PrimitiveOverrideProps<TextProps>;
+    "Group 37147"?: PrimitiveOverrideProps<ViewProps>;
+    "Please fill your information so we can get in touch with you."?: PrimitiveOverrideProps<TextProps>;
+    "Contact details"?: PrimitiveOverrideProps<TextProps>;
+    "Group 3714637662497"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 43237662498"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 427737662499"?: PrimitiveOverrideProps<ViewProps>;
+    Group37662500?: PrimitiveOverrideProps<ViewProps>;
+    Vector37662501?: PrimitiveOverrideProps<IconProps>;
+    Vector37662502?: PrimitiveOverrideProps<IconProps>;
+    "Group 4137662503"?: PrimitiveOverrideProps<ViewProps>;
+    Vector37662504?: PrimitiveOverrideProps<IconProps>;
+    Vector37662505?: PrimitiveOverrideProps<IconProps>;
+    "Waste Management"?: PrimitiveOverrideProps<TextProps>;
+    Virginia?: PrimitiveOverrideProps<TextProps>;
+    "Project Name"?: PrimitiveOverrideProps<TextProps>;
+    State?: PrimitiveOverrideProps<TextProps>;
+    "Rectangle 43537662510"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 4278"?: PrimitiveOverrideProps<ViewProps>;
+    Group37662520?: PrimitiveOverrideProps<ViewProps>;
+    Vector37662521?: PrimitiveOverrideProps<IconProps>;
+    Vector37662522?: PrimitiveOverrideProps<IconProps>;
+    "Prince William County"?: PrimitiveOverrideProps<TextProps>;
+    "Company name"?: PrimitiveOverrideProps<TextProps>;
+    "County(s)"?: PrimitiveOverrideProps<TextProps>;
+    "Project Submitted By"?: PrimitiveOverrideProps<TextProps>;
+    Group37662812?: PrimitiveOverrideProps<ViewProps>;
+    Vector37662813?: PrimitiveOverrideProps<IconProps>;
+    Vector37662814?: PrimitiveOverrideProps<IconProps>;
+    Vector37662808?: PrimitiveOverrideProps<IconProps>;
+    "Group 4137662805"?: PrimitiveOverrideProps<ViewProps>;
+    Vector37662806?: PrimitiveOverrideProps<IconProps>;
+    Vector37662807?: PrimitiveOverrideProps<IconProps>;
+    "Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed."?: PrimitiveOverrideProps<TextProps>;
+    "Line 133"?: PrimitiveOverrideProps<IconProps>;
+    "Group 37318"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 4354"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 4357"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 4355"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 4356"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 37135"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 37133"?: PrimitiveOverrideProps<ViewProps>;
+    "Ellipse 435"?: PrimitiveOverrideProps<IconProps>;
+    "Group 37132"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 37131"?: PrimitiveOverrideProps<ViewProps>;
+    "Ellipse 436"?: PrimitiveOverrideProps<IconProps>;
+    "Group 37138"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 3713737662543"?: PrimitiveOverrideProps<ViewProps>;
+    "Ellipse 43737662544"?: PrimitiveOverrideProps<IconProps>;
+    "Group 37139"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 3713737662547"?: PrimitiveOverrideProps<ViewProps>;
+    "Ellipse 43737662548"?: PrimitiveOverrideProps<IconProps>;
+    "Primary BTN"?: PrimitiveOverrideProps<FlexProps>;
+    "Button Text"?: PrimitiveOverrideProps<TextProps>;
+} & EscapeHatchProps;
+export declare type SubmissionFormStep1Props = React.PropsWithChildren<Partial<ViewProps> & {
+    overrides?: SubmissionFormStep1OverridesProps | undefined | null;
+}>;
+export default function SubmissionFormStep1(props: SubmissionFormStep1Props): React.ReactElement;

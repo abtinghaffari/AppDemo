@@ -1,0 +1,122 @@
+enum FailureRemedies {
+  UNUSED_FUNDS_RETURNED
+  OTHER
+}
+
+enum MonitoringPlan {
+  DESCRIBE_PROCES_PLAN
+  WHO_CONDUCTS_MONITORING
+  TOTAL_FUNDING_NEEDED
+}
+
+enum ProjectCost {
+  TITLE2_FUNDS_REQUESTED
+  IS_MULTIYEAR_FUNDING
+}
+
+enum AccomplishmentMethods {
+  CONTRACT
+  FEDERAL_WORKFORCE
+  COUNTY_WORKFORCE
+  VOLUNTEERS
+  GRANT
+  AGREEMENT
+  AMERICORPS
+  YCC_CCC_CREWS
+  JOB_CORPS
+  STEWARDSHIP_CONTRACT
+  MERCHANTABLE_TIMBER_PLOT
+  OTHER
+}
+
+enum ProjectAccomplishments {
+  MILES_ROAD_MAINTAINED
+  MILES_ROAD_DECOMISSIONED
+  NUMBER_STRUCTURES_MAINTAINED
+  ACRES_OF_SOIL_PRODUCTIVITY_IMPROVED
+  MILES_RIVER_IMPROVED
+  MILES_FISH_HABITAT
+  ACRES_NATIVE_SPECIES
+  ACRES_HAZARDOUS_FUEL_TREATMENT
+  MILES_TRAIL_MAINTAINED
+  MILES_TRAIL_OBLITERATED
+  ACRES_FOREST_HEALTH_IMPROVED
+  ACRES_RANGELAND_IMPROVED
+  ACRES_WILDLIFE_RESTORED
+  ACRES_NOXIOUS_WEED_CONTROLLED
+  TIMBER_VOLUME_GENERATED
+  JOBS_GENERATED_FTE
+  PEOPLE_REACHED
+  DIRECT_ECONOMIC_BENEFIT
+  OTHER
+}
+
+enum ProjectType {
+  ROAD_MAINTENANCE
+  ROAD_DECOMISSION
+  TRAIL_MAINTENANCE
+  TRAIL_OBLITERATION
+  OTHER_INFRASTRUCTURE_MAINTENANCE
+  SOIL_PRODUCTIVITY_IMPROVEMENT
+  FOREST_HEALTH_IMPROVEMENT
+  WATERSHED_MAINTENANCE
+  WILDLIFE_HABITAT_RESTORATION
+  FISH_HABTIAT_RESTORATION
+  CONTROL_NOXIOUS_WEEDS
+  REESTABLISH_NATIVE_SPECIES
+  FUELS_MANAGEMENT
+  IMPLEMENT_CWPP_PROJECT
+  OTHER_PROJECT_TYPE
+}
+
+enum MeetPurpose {
+  IMPROVES_MAINTENANCE
+  IMPLEMENT_STEWARDSHIP
+  RESTORES_LANDHEALTH
+  RESTORE_WATERQUALITY
+}
+
+enum Land {
+  STATE
+  PRIVATE
+  OTHER
+  NONE
+}
+
+enum ProjectDescription {
+  SHORT
+  BRIEF
+}
+
+type ProjectAttributes @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  racNumber: String
+  fundingFiscalYear: String
+  state: String
+  county: String
+  submittedBy: String
+  currentDate: AWSDate
+  contactPhoneNum: AWSPhone
+  contactEmail: String
+  projectLocation: String
+  nationalForest: String
+  forestServiceDistrict: String
+  projectLocationTownship: String
+  projectGoal: String
+  projectDescription: ProjectDescription
+  typeLand: Land
+  meetPurpose: MeetPurpose
+  projectType: ProjectType
+  projectAccomplishments: ProjectAccomplishments
+  startDate: AWSDate
+  completionDate: AWSDate
+  listPartnernships: String
+  identifyCommunityBenefits: String
+  identifyFederalBenefits: String
+  accomplishmentMethods: AccomplishmentMethods
+  generateMerchantableTimber: String
+  anticipatedCost: ProjectCost
+  otherSourceOfFunding: String
+  monitoringPlan: MonitoringPlan
+  remediesForFailure: FailureRemedies
+}
