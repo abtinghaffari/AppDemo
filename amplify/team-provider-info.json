@@ -17,6 +17,34 @@
       },
       "storage": {
         "title2docs": {}
+      },
+      "api": {
+        "projectusdatitleii": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-projectusdatitleii-dev-114438-authRole",
+      "UnauthRoleArn": "arn:aws:iam::443514015028:role/amplify-projectusdatitleii-dev-114438-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::443514015028:role/amplify-projectusdatitleii-dev-114438-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-projectusdatitleii-dev-114438-deployment",
+      "UnauthRoleName": "amplify-projectusdatitleii-dev-114438-unauthRole",
+      "StackName": "amplify-projectusdatitleii-dev-114438",
+      "StackId": "arn:aws:cloudformation:us-east-1:443514015028:stack/amplify-projectusdatitleii-dev-114438/8699d750-19b8-11ee-be9a-0a192df2045d",
+      "AmplifyAppId": "d23d5x11se3lte"
+    },
+    "categories": {
+      "api": {
+        "projectusdatitleii": {}
+      },
+      "auth": {
+        "projectusdatitleii": {},
+        "projectusdatitleii7d3e86f0": {}
+      },
+      "storage": {
+        "title2docs": {}
       }
     }
   }

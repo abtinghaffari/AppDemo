@@ -876,10 +876,10 @@ export default function HomePage(props) {
       </Flex>
       <Text
         fontFamily="Inter"
-        fontSize="24px"
-        fontWeight="600"
+        fontSize="20px"
+        fontWeight="700"
         color="rgba(0,0,0,1)"
-        lineHeight="29.045454025268555px"
+        lineHeight="24.204544067382812px"
         textAlign="center"
         display="block"
         direction="column"

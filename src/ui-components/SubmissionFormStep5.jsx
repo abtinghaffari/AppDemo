@@ -12,8 +12,8 @@ export default function SubmissionFormStep5(props) {
   const { overrides, ...rest } = props;
   return (
     <View
-      width="698.3px"
-      height="868.7px"
+      width="699.3px"
+      height="869.2px"
       display="block"
       gap="unset"
       alignItems="unset"
@@ -23,66 +23,899 @@ export default function SubmissionFormStep5(props) {
       {...getOverrideProps(overrides, "SubmissionFormStep5")}
       {...rest}
     >
-      <Text
-        fontFamily="DM Sans"
-        fontSize="34px"
-        fontWeight="700"
-        color="rgba(23,15,73,1)"
-        lineHeight="46px"
-        textAlign="center"
+      <View
+        width="699.3px"
+        height="869.2px"
         display="block"
-        direction="column"
-        justifyContent="unset"
-        width="680px"
-        height="unset"
         gap="unset"
         alignItems="unset"
+        justifyContent="unset"
         position="absolute"
         top="0%"
-        bottom="94.7%"
-        left="1.33%"
-        right="1.29%"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Get a project quote"
-        {...getOverrideProps(overrides, "Get a project quote")}
-      ></Text>
-      <View
-        width="698px"
-        height="606px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="19.64%"
-        bottom="10.6%"
-        left="0.04%"
+        bottom="0%"
+        left="0%"
         right="0%"
-        border="1px SOLID rgba(239,240,246,1)"
-        boxShadow="0px 5px 16px rgba(0.03232640027999878, 0.059820856899023056, 0.20416666567325592, 0.05999999865889549)"
-        borderRadius="34px"
         padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 4276")}
-      ></View>
+        {...getOverrideProps(overrides, "SubmissionFormStep3")}
+      >
+        <Text
+          fontFamily="DM Sans"
+          fontSize="34px"
+          fontWeight="700"
+          color="rgba(23,15,73,1)"
+          lineHeight="46px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="680px"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="0%"
+          bottom="94.71%"
+          left="1.32%"
+          right="1.44%"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Get a project quote"
+          {...getOverrideProps(overrides, "Get a project quote")}
+        ></Text>
+        <Icon
+          width="698px"
+          height="1203px"
+          viewBox={{ minX: 0, minY: 0, width: 698, height: 1203 }}
+          paths={[
+            {
+              d: "M34 1L664 1L664 -1L34 -1L34 1ZM697 34L697 1169L699 1169L699 34L697 34ZM664 1202L34 1202L34 1204L664 1204L664 1202ZM1 1169L1 34L-1 34L-1 1169L1 1169ZM34 1202C15.7746 1202 1 1187.23 1 1169L-1 1169C-1 1188.33 14.67 1204 34 1204L34 1202ZM697 1169C697 1187.23 682.225 1202 664 1202L664 1204C683.33 1204 699 1188.33 699 1169L697 1169ZM664 1C682.225 1 697 15.7746 697 34L699 34C699 14.67 683.33 -1 664 -1L664 1ZM34 -1C14.67 -1 -1 14.67 -1 34L1 34C1 15.7746 15.7746 1 34 1L34 -1Z",
+              stroke: "rgba(239,240,246,1)",
+              fillRule: "nonzero",
+              strokeWidth: 1,
+            },
+            {
+              d: "M0 34C0 15.2223 15.2223 0 34 0L664 0C682.778 0 698 15.2223 698 34L698 1169C698 1187.78 682.778 1203 664 1203L34 1203C15.2223 1203 0 1187.78 0 1169L0 34Z",
+              fill: "rgba(255,255,255,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="19.67%"
+          bottom="-58.08%"
+          left="-1.29%"
+          right="1.47%"
+          {...getOverrideProps(overrides, "Rectangle 4276")}
+        ></Icon>
+        <Text
+          fontFamily="DM Sans"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(111,108,144,1)"
+          lineHeight="30px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="566.41px"
+          height="70px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="6.67%"
+          bottom="85.27%"
+          left="9.45%"
+          right="9.56%"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed."
+          {...getOverrideProps(
+            overrides,
+            "Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed."
+          )}
+        ></Text>
+        <Icon
+          width="596.26px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 596.2587890625, height: 1 }}
+          paths={[
+            {
+              d: "M0 -5.55112e-17L596.259 -5.55112e-17L596.259 -1L0 -1L0 -5.55112e-17Z",
+              stroke: "rgba(217,219,233,1)",
+              fillRule: "nonzero",
+              strokeWidth: 1,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="31.02%"
+          bottom="68.98%"
+          left="6.61%"
+          right="8.12%"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 133")}
+        ></Icon>
+        <View
+          padding="0px 0px 0px 0px"
+          width="628px"
+          height="369.55px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="37.93%"
+          bottom="19.56%"
+          left="6.58%"
+          right="3.62%"
+          {...getOverrideProps(overrides, "Group 37147")}
+        >
+          <Text
+            fontFamily="DM Sans"
+            fontSize="18px"
+            fontWeight="400"
+            color="rgba(111,108,144,1)"
+            lineHeight="30px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="488px"
+            height="29.65px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="11.37%"
+            bottom="80.61%"
+            left="0.04%"
+            right="22.25%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Please fill in your information below."
+            {...getOverrideProps(
+              overrides,
+              "Please fill in your information below."
+            )}
+          ></Text>
+          <Text
+            fontFamily="DM Sans"
+            fontSize="24px"
+            fontWeight="700"
+            color="rgba(23,15,73,1)"
+            lineHeight="35px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="202.63px"
+            height="34.59px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="0%"
+            bottom="90.64%"
+            left="0.04%"
+            right="67.69%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children=""
+            {...getOverrideProps(overrides, "Text38205438")}
+          ></Text>
+          <View
+            padding="0px 0px 0px 0px"
+            width="628px"
+            height="269.23px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="27.15%"
+            bottom="0%"
+            left="0%"
+            right="0%"
+            {...getOverrideProps(overrides, "Group 3714638205439")}
+          >
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="17.66%"
+              bottom="58.11%"
+              left="0.04%"
+              right="54.74%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 43238205440")}
+            ></View>
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="17.66%"
+              bottom="58.11%"
+              left="49.74%"
+              right="5.03%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 427738205441")}
+            ></View>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="400"
+              color="rgba(111,108,144,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="170px"
+              height="19px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="25.63%"
+              bottom="67.31%"
+              left="3.18%"
+              right="69.75%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Yes/No:"
+              {...getOverrideProps(overrides, "Yes/No:38205442")}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="400"
+              color="rgba(111,108,144,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="263px"
+              height="19px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="25.63%"
+              bottom="67.31%"
+              left="53.03%"
+              right="5.1%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="$"
+              {...getOverrideProps(overrides, "$38205443")}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="284px"
+              height="20px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0%"
+              bottom="92.57%"
+              left="1.59%"
+              right="53.18%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Will The Project Generate Merchantable Timber?&#xA;"
+              {...getOverrideProps(
+                overrides,
+                "Will The Project Generate Merchantable Timber?"
+              )}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="255px"
+              height="20px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0%"
+              bottom="92.57%"
+              left="49.68%"
+              right="9.71%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="TitleII Funds Requested"
+              {...getOverrideProps(
+                overrides,
+                "TitleII Funds Requested38205445"
+              )}
+            ></Text>
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="75.77%"
+              bottom="0%"
+              left="0%"
+              right="54.78%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 43538205446")}
+            ></View>
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="75.77%"
+              bottom="0%"
+              left="49.84%"
+              right="4.94%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 427838205447")}
+            ></View>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="400"
+              color="rgba(111,108,144,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="132px"
+              height="19.77px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="79.55%"
+              bottom="13.11%"
+              left="53.04%"
+              right="25.94%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Yes/No:"
+              {...getOverrideProps(overrides, "Yes/No:38205449")}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="262px"
+              height="20px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="57.94%"
+              bottom="34.63%"
+              left="0%"
+              right="58.28%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Is This a Multi-Year Funding Request:"
+              {...getOverrideProps(
+                overrides,
+                "Is This a Multi-Year Funding Request:"
+              )}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="316px"
+              height="20px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="57.94%"
+              bottom="34.63%"
+              left="49.68%"
+              right="0%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Identify Source(s) of Other Funding:"
+              {...getOverrideProps(
+                overrides,
+                "Identify Source(s) of Other Funding:"
+              )}
+            ></Text>
+          </View>
+        </View>
+        <View
+          padding="0px 0px 0px 0px"
+          width="596.39px"
+          height="533.23px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="71.56%"
+          bottom="-32.91%"
+          left="6.58%"
+          right="8.14%"
+          {...getOverrideProps(overrides, "Group 37148")}
+        >
+          <Text
+            fontFamily="DM Sans"
+            fontSize="24px"
+            fontWeight="700"
+            color="rgba(23,15,73,1)"
+            lineHeight="35px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="202.63px"
+            height="34.59px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="0%"
+            bottom="93.51%"
+            left="0.04%"
+            right="65.98%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children=""
+            {...getOverrideProps(overrides, "Text38394194")}
+          ></Text>
+          <View
+            padding="0px 0px 0px 0px"
+            width="596.39px"
+            height="433.23px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="18.75%"
+            bottom="0%"
+            left="0%"
+            right="0%"
+            {...getOverrideProps(overrides, "Group 3714638394195")}
+          >
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="11.05%"
+              bottom="73.89%"
+              left="52.38%"
+              right="0%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 427738394197")}
+            ></View>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="400"
+              color="rgba(111,108,144,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="263px"
+              height="19px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="16%"
+              bottom="79.61%"
+              left="55.84%"
+              right="0.06%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="$"
+              {...getOverrideProps(overrides, "$38394199")}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="295px"
+              height="121px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0%"
+              bottom="72.07%"
+              left="0%"
+              right="50.54%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Provide a plan that describes your process for tracking and explaining the effects of this project on your environmental and community goals outlined above.&#xA;"
+              {...getOverrideProps(
+                overrides,
+                "Provide a plan that describes your process for tracking and explaining the effects of this project on your environmental and community goals outlined above."
+              )}
+            ></Text>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="255px"
+              height="20px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0.08%"
+              bottom="95.31%"
+              left="52.32%"
+              right="4.93%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="TitleII Funds Requested"
+              {...getOverrideProps(
+                overrides,
+                "TitleII Funds Requested38394201"
+              )}
+            ></Text>
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="84.94%"
+              bottom="0%"
+              left="0%"
+              right="52.38%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 43538394202")}
+            ></View>
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="84.94%"
+              bottom="0%"
+              left="50.97%"
+              right="1.41%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 4279")}
+            ></View>
+            <View
+              width="284px"
+              height="65.23px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="40.39%"
+              bottom="44.55%"
+              left="50.97%"
+              right="1.41%"
+              border="1px SOLID rgba(239,240,246,1)"
+              boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+              borderRadius="46px"
+              padding="0px 0px 0px 0px"
+              backgroundColor="rgba(255,255,255,1)"
+              {...getOverrideProps(overrides, "Rectangle 427838394203")}
+            ></View>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="18px"
+              fontWeight="500"
+              color="rgba(23,15,73,1)"
+              lineHeight="20px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="262px"
+              height="20px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="58.17%"
+              bottom="37.22%"
+              left="0%"
+              right="56.07%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Identify total funding needed to carry out specified monitoring tasks (Worksheet 1, Item k):&#xA;"
+              {...getOverrideProps(
+                overrides,
+                "Identify total funding needed to carry out specified monitoring tasks (Worksheet 1, Item k):"
+              )}
+            ></Text>
+          </View>
+          <Text
+            fontFamily="DM Sans"
+            fontSize="18px"
+            fontWeight="400"
+            color="rgba(111,108,144,1)"
+            lineHeight="20px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="263px"
+            height="19px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="92.08%"
+            bottom="4.36%"
+            left="54.66%"
+            right="1.24%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Yes/No, If other, explain:"
+            {...getOverrideProps(overrides, "Yes/No, If other, explain:")}
+          ></Text>
+          <Text
+            fontFamily="DM Sans"
+            fontSize="18px"
+            fontWeight="500"
+            color="rgba(23,15,73,1)"
+            lineHeight="20px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="262px"
+            height="20px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="66.01%"
+            bottom="30.24%"
+            left="50.97%"
+            right="5.1%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="If project cannot be completed under the terms of this agreement:&#xA;Will unused funds will be returned to the RAC account?&#xA;"
+            {...getOverrideProps(
+              overrides,
+              "If project cannot be completed under the terms of this agreement: Will unused funds will be returned to the RAC account?"
+            )}
+          ></Text>
+        </View>
+        <Text
+          fontFamily="DM Sans"
+          fontSize="18px"
+          fontWeight="500"
+          color="rgba(23,15,73,1)"
+          lineHeight="20px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="316px"
+          height="20px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="97.45%"
+          bottom="0.25%"
+          left="51.19%"
+          right="3.62%"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Identify who will conduct the monitoring:&#xA;"
+          {...getOverrideProps(
+            overrides,
+            "Identify who will conduct the monitoring:"
+          )}
+        ></Text>
+        <View
+          padding="0px 0px 0px 0px"
+          width="27.27px"
+          height="33.6px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="23.24%"
+          bottom="72.89%"
+          left="88.09%"
+          right="8.01%"
+          {...getOverrideProps(overrides, "Group 37140")}
+        >
+          <View
+            padding="0px 0px 0px 0px"
+            width="27.27px"
+            height="33.6px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0%"
+            bottom="0%"
+            left="0%"
+            right="0%"
+            {...getOverrideProps(overrides, "Group 3713738393192")}
+          >
+            <Icon
+              width="27.27px"
+              height="33.6px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 27.2685546875,
+                height: 33.60107421875,
+              }}
+              paths={[
+                {
+                  d: "M27.2685 16.8006C27.2685 26.0792 21.1642 33.6011 13.6342 33.6011C6.10425 33.6011 0 26.0792 0 16.8006C0 7.52186 6.10425 0 13.6342 0C21.1642 0 27.2685 7.52186 27.2685 16.8006Z",
+                  fill: "rgba(239,240,246,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              {...getOverrideProps(overrides, "Ellipse 43738393193")}
+            ></Icon>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="16px"
+              fontWeight="400"
+              color="rgba(111,108,144,1)"
+              lineHeight="23px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="8.02px"
+              height="22.73px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="14.71%"
+              bottom="17.65%"
+              left="35.29%"
+              right="35.29%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="6"
+              {...getOverrideProps(overrides, "6")}
+            ></Text>
+          </View>
+        </View>
+        <View
+          width="284px"
+          height="65.23px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="95.49%"
+          bottom="-2.99%"
+          left="6.58%"
+          right="52.81%"
+          border="1px SOLID rgba(239,240,246,1)"
+          boxShadow="0px 2px 6px rgba(0.07267777621746063, 0.06888888776302338, 0.25833332538604736, 0.07000000029802322)"
+          borderRadius="46px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,1)"
+          {...getOverrideProps(overrides, "Rectangle 43238394196")}
+        ></View>
+      </View>
       <View
         padding="0px 0px 0px 0px"
-        width="538.27px"
+        width="488.22px"
         height="34px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="23.48%"
-        bottom="72.6%"
-        left="9.95%"
-        right="12.96%"
+        top="23.24%"
+        bottom="72.85%"
+        left="6.58%"
+        right="23.61%"
         {...getOverrideProps(overrides, "Group 37318")}
       >
         <View
-          width="98.09px"
+          width="56.85px"
           height="6px"
           display="block"
           gap="unset"
@@ -91,50 +924,67 @@ export default function SubmissionFormStep5(props) {
           position="absolute"
           top="39.71%"
           bottom="42.65%"
-          left="9.66%"
-          right="72.12%"
+          left="8.53%"
+          right="79.83%"
           borderRadius="40px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(74,58,255,1)"
           {...getOverrideProps(overrides, "Rectangle 4354")}
         ></View>
         <View
-          width="98.09px"
+          width="56.85px"
           height="6px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="39.71%"
-          bottom="42.65%"
-          left="40.89%"
-          right="40.89%"
+          top="41.18%"
+          bottom="41.18%"
+          left="31.65%"
+          right="56.7%"
           borderRadius="40px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(74,58,255,1)"
-          {...getOverrideProps(overrides, "Rectangle 4355")}
+          {...getOverrideProps(overrides, "Rectangle 435538072660")}
         ></View>
         <View
-          width="98.09px"
+          width="56.85px"
           height="6px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="39.71%"
-          bottom="42.65%"
-          left="72.12%"
-          right="9.66%"
+          top="41.18%"
+          bottom="41.18%"
+          left="54.77%"
+          right="33.58%"
           borderRadius="40px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(74,58,255,1)"
           {...getOverrideProps(overrides, "Rectangle 4356")}
         ></View>
         <View
+          width="56.85px"
+          height="6px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="41.18%"
+          bottom="41.18%"
+          left="77.83%"
+          right="10.52%"
+          borderRadius="40px"
           padding="0px 0px 0px 0px"
-          width="34px"
+          backgroundColor="rgba(74,58,255,1)"
+          {...getOverrideProps(overrides, "Rectangle 4357")}
+        ></View>
+        <View
+          padding="0px 0px 0px 0px"
+          width="27.22px"
           height="34px"
           display="block"
           gap="unset"
@@ -144,12 +994,12 @@ export default function SubmissionFormStep5(props) {
           top="0%"
           bottom="0%"
           left="0%"
-          right="93.68%"
+          right="94.42%"
           {...getOverrideProps(overrides, "Group 37135")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="34px"
+            width="27.22px"
             height="34px"
             display="block"
             gap="unset"
@@ -163,12 +1013,12 @@ export default function SubmissionFormStep5(props) {
             {...getOverrideProps(overrides, "Group 37133")}
           >
             <Icon
-              width="34px"
+              width="27.22px"
               height="34px"
-              viewBox={{ minX: 0, minY: 0, width: 34, height: 34 }}
+              viewBox={{ minX: 0, minY: 0, width: 27.22265625, height: 34 }}
               paths={[
                 {
-                  d: "M34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17Z",
+                  d: "M27.2228 17C27.2228 26.3888 21.1288 34 13.6114 34C6.09403 34 0 26.3888 0 17C0 7.61116 6.09403 0 13.6114 0C21.1288 0 27.2228 7.61116 27.2228 17Z",
                   fill: "rgba(74,58,255,1)",
                   fillRule: "nonzero",
                 },
@@ -194,7 +1044,7 @@ export default function SubmissionFormStep5(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
+              width="4.8px"
               height="unset"
               gap="unset"
               alignItems="unset"
@@ -212,7 +1062,7 @@ export default function SubmissionFormStep5(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="34px"
+          width="27.22px"
           height="34px"
           display="block"
           gap="unset"
@@ -221,13 +1071,13 @@ export default function SubmissionFormStep5(props) {
           position="absolute"
           top="0%"
           bottom="0%"
-          left="31.23%"
-          right="62.46%"
+          left="23.12%"
+          right="71.3%"
           {...getOverrideProps(overrides, "Group 37132")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="34px"
+            width="27.22px"
             height="34px"
             display="block"
             gap="unset"
@@ -241,12 +1091,12 @@ export default function SubmissionFormStep5(props) {
             {...getOverrideProps(overrides, "Group 37131")}
           >
             <Icon
-              width="34px"
+              width="27.22px"
               height="34px"
-              viewBox={{ minX: 0, minY: 0, width: 34, height: 34 }}
+              viewBox={{ minX: 0, minY: 0, width: 27.22265625, height: 34 }}
               paths={[
                 {
-                  d: "M34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17Z",
+                  d: "M27.2228 17C27.2228 26.3888 21.1288 34 13.6114 34C6.09403 34 0 26.3888 0 17C0 7.61116 6.09403 0 13.6114 0C21.1288 0 27.2228 7.61116 27.2228 17Z",
                   fill: "rgba(74,58,255,1)",
                   fillRule: "nonzero",
                 },
@@ -272,7 +1122,7 @@ export default function SubmissionFormStep5(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
+              width="8.01px"
               height="unset"
               gap="unset"
               alignItems="unset"
@@ -290,7 +1140,7 @@ export default function SubmissionFormStep5(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="34px"
+          width="27.22px"
           height="34px"
           display="block"
           gap="unset"
@@ -299,13 +1149,13 @@ export default function SubmissionFormStep5(props) {
           position="absolute"
           top="0%"
           bottom="0%"
-          left="62.46%"
-          right="31.23%"
+          left="46.25%"
+          right="48.18%"
           {...getOverrideProps(overrides, "Group 37138")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="34px"
+            width="27.22px"
             height="34px"
             display="block"
             gap="unset"
@@ -316,15 +1166,15 @@ export default function SubmissionFormStep5(props) {
             bottom="0%"
             left="0%"
             right="0%"
-            {...getOverrideProps(overrides, "Group 3713737662746")}
+            {...getOverrideProps(overrides, "Group 3713738072672")}
           >
             <Icon
-              width="34px"
+              width="27.22px"
               height="34px"
-              viewBox={{ minX: 0, minY: 0, width: 34, height: 34 }}
+              viewBox={{ minX: 0, minY: 0, width: 27.22265625, height: 34 }}
               paths={[
                 {
-                  d: "M34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17Z",
+                  d: "M27.2228 17C27.2228 26.3888 21.1288 34 13.6114 34C6.09403 34 0 26.3888 0 17C0 7.61116 6.09403 0 13.6114 0C21.1288 0 27.2228 7.61116 27.2228 17Z",
                   fill: "rgba(74,58,255,1)",
                   fillRule: "nonzero",
                 },
@@ -338,7 +1188,7 @@ export default function SubmissionFormStep5(props) {
               bottom="0%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Ellipse 43737662747")}
+              {...getOverrideProps(overrides, "Ellipse 43738072673")}
             ></Icon>
             <Text
               fontFamily="DM Sans"
@@ -350,7 +1200,7 @@ export default function SubmissionFormStep5(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
+              width="8.01px"
               height="unset"
               gap="unset"
               alignItems="unset"
@@ -368,7 +1218,7 @@ export default function SubmissionFormStep5(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="34px"
+          width="149.54px"
           height="34px"
           display="block"
           gap="unset"
@@ -377,13 +1227,13 @@ export default function SubmissionFormStep5(props) {
           position="absolute"
           top="0%"
           bottom="0%"
-          left="93.68%"
+          left="69.37%"
           right="0%"
           {...getOverrideProps(overrides, "Group 37139")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="34px"
+            width="27.22px"
             height="34px"
             display="block"
             gap="unset"
@@ -393,16 +1243,16 @@ export default function SubmissionFormStep5(props) {
             top="0%"
             bottom="0%"
             left="0%"
-            right="0%"
-            {...getOverrideProps(overrides, "Group 3713737662750")}
+            right="81.8%"
+            {...getOverrideProps(overrides, "Group 3713738072676")}
           >
             <Icon
-              width="34px"
+              width="27.22px"
               height="34px"
-              viewBox={{ minX: 0, minY: 0, width: 34, height: 34 }}
+              viewBox={{ minX: 0, minY: 0, width: 27.22265625, height: 34 }}
               paths={[
                 {
-                  d: "M34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17Z",
+                  d: "M27.2228 17C27.2228 26.3888 21.1288 34 13.6114 34C6.09403 34 0 26.3888 0 17C0 7.61116 6.09403 0 13.6114 0C21.1288 0 27.2228 7.61116 27.2228 17Z",
                   fill: "rgba(74,58,255,1)",
                   fillRule: "nonzero",
                 },
@@ -416,7 +1266,7 @@ export default function SubmissionFormStep5(props) {
               bottom="0%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Ellipse 43737662751")}
+              {...getOverrideProps(overrides, "Ellipse 43738072677")}
             ></Icon>
             <Text
               fontFamily="DM Sans"
@@ -428,7 +1278,7 @@ export default function SubmissionFormStep5(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
+              width="8.01px"
               height="unset"
               gap="unset"
               alignItems="unset"
@@ -443,7 +1293,124 @@ export default function SubmissionFormStep5(props) {
               {...getOverrideProps(overrides, "4")}
             ></Text>
           </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="27.22px"
+            height="34px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0%"
+            bottom="0%"
+            left="81.8%"
+            right="0%"
+            {...getOverrideProps(overrides, "Group 37141")}
+          >
+            <Icon
+              width="27.22px"
+              height="34px"
+              viewBox={{ minX: 0, minY: 0, width: 27.22265625, height: 34 }}
+              paths={[
+                {
+                  d: "M27.2228 17C27.2228 26.3888 21.1288 34 13.6114 34C6.09403 34 0 26.3888 0 17C0 7.61116 6.09403 0 13.6114 0C21.1288 0 27.2228 7.61116 27.2228 17Z",
+                  fill: "rgba(74,58,255,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              {...getOverrideProps(overrides, "Ellipse 43738394041")}
+            ></Icon>
+            <Text
+              fontFamily="DM Sans"
+              fontSize="16px"
+              fontWeight="500"
+              color="rgba(255,255,255,1)"
+              lineHeight="18px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="8.01px"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="23.53%"
+              bottom="23.53%"
+              left="35.29%"
+              right="35.29%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="5"
+              {...getOverrideProps(overrides, "5")}
+            ></Text>
+          </View>
         </View>
+      </View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="56.85px"
+        height="6px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="24.85%"
+        bottom="74.46%"
+        left="78.36%"
+        right="13.51%"
+        {...getOverrideProps(overrides, "Group 37322")}
+      >
+        <View
+          width="56.85px"
+          height="6px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="0%"
+          borderRadius="40px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(239,240,246,1)"
+          {...getOverrideProps(overrides, "Rectangle 435538393840")}
+        ></View>
+        <Icon
+          width="35.5px"
+          height="6px"
+          viewBox={{ minX: 0, minY: 0, width: 35.5, height: 6 }}
+          paths={[
+            {
+              d: "M0 3C0 1.34315 1.34315 0 3 0L32.5 0C34.1569 0 35.5 1.34315 35.5 3L35.5 3C35.5 4.65685 34.1569 6 32.5 6L3 6C1.34315 6 0 4.65685 0 3L0 3Z",
+              fill: "rgba(74,58,255,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0.14%"
+          right="37.41%"
+          {...getOverrideProps(overrides, "Rectangle 4361")}
+        ></Icon>
       </View>
       <Flex
         gap="8px"
@@ -453,10 +1420,10 @@ export default function SubmissionFormStep5(props) {
         justifyContent="center"
         alignItems="center"
         position="absolute"
-        top="72.78%"
-        bottom="20.19%"
-        left="39.78%"
-        right="39.74%"
+        top="147.95%"
+        bottom="-54.97%"
+        left="57.63%"
+        right="18.78%"
         boxShadow="0px 3px 12px rgba(0.290196031332016, 0.22745096683502197, 1, 0.18000000715255737)"
         borderRadius="56px"
         padding="20px 40px 21px 40px"
@@ -481,113 +1448,10 @@ export default function SubmissionFormStep5(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Submit"
-          {...getOverrideProps(overrides, "Button Text37662754")}
+          children="Next step"
+          {...getOverrideProps(overrides, "Button Text38205435")}
         ></Text>
       </Flex>
-      <Text
-        fontFamily="DM Sans"
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(111,108,144,1)"
-        lineHeight="30px"
-        textAlign="center"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="494.67px"
-        height="105.7px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="59.23%"
-        bottom="28.6%"
-        left="14.6%"
-        right="14.56%"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Please review all the information you previously typed in the past steps, and if all is okay, submit your message to receive a project quote in 24 - 48 hours."
-        {...getOverrideProps(
-          overrides,
-          "Please review all the information you previously typed in the past steps, and if all is okay, submit your message to receive a project quote in 24 - 48 hours."
-        )}
-      ></Text>
-      <Text
-        fontFamily="DM Sans"
-        fontSize="24px"
-        fontWeight="700"
-        color="rgba(23,15,73,1)"
-        lineHeight="35px"
-        textAlign="center"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="unset"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="54.34%"
-        bottom="41.63%"
-        left="27.6%"
-        right="27.72%"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Submit your quote request"
-        {...getOverrideProps(overrides, "Submit your quote request")}
-      ></Text>
-      <Text
-        fontFamily="DM Sans"
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(111,108,144,1)"
-        lineHeight="30px"
-        textAlign="center"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="566.41px"
-        height="70px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="6.68%"
-        bottom="85.27%"
-        left="9.46%"
-        right="9.43%"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed."
-        {...getOverrideProps(
-          overrides,
-          "Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed."
-        )}
-      ></Text>
-      <Icon
-        width="596.26px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 596.2587890625, height: 1 }}
-        paths={[
-          {
-            d: "M0 -5.55112e-17L596.259 -5.55112e-17L596.259 -1L0 -1L0 -5.55112e-17Z",
-            stroke: "rgba(217,219,233,1)",
-            fillRule: "nonzero",
-            strokeWidth: 1,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="31.03%"
-        bottom="68.97%"
-        left="6.62%"
-        right="7.99%"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 133")}
-      ></Icon>
       <Flex
         gap="0"
         direction="column"
@@ -596,10 +1460,10 @@ export default function SubmissionFormStep5(props) {
         justifyContent="center"
         alignItems="center"
         position="absolute"
-        top="93.09%"
-        bottom="0%"
-        left="0%"
-        right="72.5%"
+        top="147.95%"
+        bottom="-54.86%"
+        left="6.58%"
+        right="65.97%"
         border="1px SOLID rgba(74,58,255,1)"
         borderRadius="66px"
         padding="18px 39px 20px 39px"
@@ -624,180 +1488,9 @@ export default function SubmissionFormStep5(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Previous step"
-          {...getOverrideProps(overrides, "Button Text37662760")}
+          {...getOverrideProps(overrides, "Button Text38394172")}
         ></Text>
       </Flex>
-      <View
-        padding="0px 0px 0px 0px"
-        width="157.36px"
-        height="143.41px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="35.73%"
-        bottom="47.76%"
-        left="38.77%"
-        right="38.69%"
-        {...getOverrideProps(overrides, "Group 37301")}
-      >
-        <View
-          width="51.54px"
-          height="51.54px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0%"
-          bottom="64.06%"
-          left="8.93%"
-          right="58.32%"
-          borderRadius="10px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(158,150,255,1)"
-          opacity="0.5"
-          {...getOverrideProps(overrides, "Rectangle 4343")}
-        ></View>
-        <View
-          width="29.36px"
-          height="29.36px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="22.92%"
-          bottom="56.61%"
-          left="81.34%"
-          right="0%"
-          borderRadius="10px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(158,150,255,1)"
-          opacity="0.5"
-          {...getOverrideProps(overrides, "Rectangle 4345")}
-        ></View>
-        <View
-          width="31.53px"
-          height="31.53px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="52.21%"
-          bottom="25.81%"
-          left="0%"
-          right="79.96%"
-          borderRadius="8px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(222,219,255,1)"
-          opacity="0.5"
-          {...getOverrideProps(overrides, "Rectangle 4344")}
-        ></View>
-        <View
-          width="36.59px"
-          height="36.59px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="74.48%"
-          bottom="0%"
-          left="72.63%"
-          right="4.12%"
-          borderRadius="8px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(222,219,255,1)"
-          opacity="0.5"
-          {...getOverrideProps(overrides, "Rectangle 4346")}
-        ></View>
-        <View
-          padding="0px 0px 0px 0px"
-          width="120px"
-          height="120px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.81%"
-          bottom="3.51%"
-          left="14.92%"
-          right="8.82%"
-          {...getOverrideProps(overrides, "Group 37269")}
-        >
-          <Icon
-            width="120px"
-            height="120px"
-            viewBox={{ minX: 0, minY: 0, width: 120, height: 120 }}
-            paths={[
-              {
-                d: "M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60Z",
-                fill: "rgba(74,58,255,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0%"
-            bottom="0%"
-            left="0%"
-            right="0%"
-            {...getOverrideProps(overrides, "Ellipse 446")}
-          ></Icon>
-          <View
-            padding="0px 0px 0px 0px"
-            width="45.43px"
-            height="32.45px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="36.48%"
-            bottom="36.48%"
-            left="31.07%"
-            right="31.07%"
-            {...getOverrideProps(overrides, "Group")}
-          >
-            <Icon
-              width="45.43px"
-              height="32.45px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 45.431640625,
-                height: 32.451416015625,
-              }}
-              paths={[
-                {
-                  d: "M2.82843 16.6424C1.26633 15.0803 -1.26633 15.0803 -2.82843 16.6424C-4.39052 18.2045 -4.39052 20.7371 -2.82843 22.2992L2.82843 16.6424ZM12.9805 32.4513L10.1521 35.2797C11.7142 36.8418 14.2469 36.8418 15.8089 35.2797L12.9805 32.4513ZM48.2602 2.82843C49.8223 1.26633 49.8223 -1.26633 48.2602 -2.82843C46.6982 -4.39052 44.1655 -4.39052 42.6034 -2.82843L48.2602 2.82843ZM-2.82843 22.2992L10.1521 35.2797L15.8089 29.6229L2.82843 16.6424L-2.82843 22.2992ZM15.8089 35.2797L48.2602 2.82843L42.6034 -2.82843L10.1521 29.6229L15.8089 35.2797Z",
-                  stroke: "rgba(255,255,255,1)",
-                  fillRule: "nonzero",
-                  strokeLinejoin: "round",
-                  strokeWidth: 8,
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="0%"
-              bottom="0%"
-              left="0%"
-              right="0%"
-              {...getOverrideProps(overrides, "Vector")}
-            ></Icon>
-          </View>
-        </View>
-      </View>
     </View>
   );
 }

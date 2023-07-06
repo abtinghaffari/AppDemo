@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import { ThemeProvider } from '@aws-amplify/ui-react';
+import { Authenticator, ButtonGroup, ThemeProvider, useAuthenticator } from '@aws-amplify/ui-react';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 import {NavBar1, NavBar2, NavBar3, NavBar4, WelcomeDialogue, Dialogue, ActionCard} from "./ui-components";
+import { Auth } from 'aws-amplify';
 
 
-function App() {
+function App({signOut, SignIn, withAuthenticator,onClick}) {
  
   let white = '#FFFFFF';
   const [bgColor, setBgColor] = useState(white);
@@ -14,6 +16,7 @@ function App() {
       let purple = '#A020F0';
       setBgColor(purple);
     }
+
 
   const navbarOverrides = {
     "Logo_of_the_United_States_Forest_Service 2": {
@@ -26,14 +29,25 @@ function App() {
 
     "image": {
       src: "https://www.naco.org/sites/default/files/GettyImages-867082604.jpg"
-    }
+    },
 
-  }
+
+    "Button40222556": {
+        onClick: signOut
+    },
+
+    "Button37502541": {
+      
+    }
+  };
+
   return (
     <div className="App" style={{background: bgColor}}>
-      
+
       <NavBar1 overrides={navbarOverrides} width = "100%"/>
-      <NavBar2 width = "100%"/>
+        <NavBar2 overrides={navbarOverrides} width = "100%">
+          </NavBar2>
+
       <header className="App-header" style={{background: bgColor}}>
       <div className="WelcomeDialogue-container">
           <WelcomeDialogue />
@@ -43,13 +57,12 @@ function App() {
         </div>
         
       </header>
-      <NavBar3 width = "100%"/>
-      <NavBar4 overrides={navbarOverrides} width = "100%"/>
 
+      <NavBar3 overrides={navbarOverrides} width = "100%"/>
+      <NavBar4 overrides={navbarOverrides} width = "100%"/>
 
 
     </div>
   );
 }
-
-export default App;
+export default withAuthenticator(App);

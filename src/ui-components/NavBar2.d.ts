@@ -14,9 +14,13 @@ export declare type NavBar2OverridesProps = {
     label37502543?: PrimitiveOverrideProps<TextProps>;
     Button37502602?: PrimitiveOverrideProps<FlexProps>;
     label37502604?: PrimitiveOverrideProps<TextProps>;
+    Button40222556?: PrimitiveOverrideProps<FlexProps>;
+    label40222558?: PrimitiveOverrideProps<TextProps>;
     "|"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type NavBar2Props = React.PropsWithChildren<Partial<ViewProps> & {
+    button37502541?: React.ReactNode;
+} & {
     overrides?: NavBar2OverridesProps | undefined | null;
 }>;
 export default function NavBar2(props: NavBar2Props): React.ReactElement;

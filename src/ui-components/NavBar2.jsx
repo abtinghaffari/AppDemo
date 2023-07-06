@@ -8,15 +8,22 @@
 import * as React from "react";
 import {
   getOverrideProps,
+  useAuthSignOutAction,
   useNavigateAction,
 } from "@aws-amplify/ui-react/internal";
 import { Flex, Text, View } from "@aws-amplify/ui-react";
 export default function NavBar2(props) {
-  const { overrides, ...rest } = props;
+  const { button37502541, overrides, ...rest } = props;
   const labelThreeSevenFiveZeroTwoSixZeroFourOnClick = useNavigateAction({
     type: "url",
     url: "https://www.fs.usda.gov/",
     target: "_blank",
+  });
+  const buttonFourZeroTwoTwoTwoFiveFiveSixOnClick = useAuthSignOutAction({
+    global: true,
+  });
+  const labelFourZeroTwoTwoTwoFiveFiveEightOnClick = useAuthSignOutAction({
+    global: true,
   });
   return (
     <View
@@ -106,6 +113,48 @@ export default function NavBar2(props) {
             labelThreeSevenFiveZeroTwoSixZeroFourOnClick();
           }}
           {...getOverrideProps(overrides, "label37502604")}
+        ></Text>
+      </Flex>
+      <Flex
+        gap="0"
+        direction="row"
+        width="146px"
+        height="40px"
+        justifyContent="center"
+        alignItems="center"
+        position="absolute"
+        top="10px"
+        left="1709px"
+        borderRadius="4px"
+        padding="8px 16px 8px 16px"
+        onClick={() => {
+          buttonFourZeroTwoTwoTwoFiveFiveSixOnClick();
+        }}
+        {...getOverrideProps(overrides, "Button40222556")}
+      >
+        <Text
+          fontFamily="Inter"
+          fontSize="16px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="24px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="unset"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          shrink="0"
+          position="relative"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Sign Out"
+          onClick={() => {
+            labelFourZeroTwoTwoTwoFiveFiveEightOnClick();
+          }}
+          {...getOverrideProps(overrides, "label40222558")}
         ></Text>
       </Flex>
       <Text

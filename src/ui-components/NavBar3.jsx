@@ -94,7 +94,7 @@ export default function NavBar3(props) {
         alignItems="center"
         position="absolute"
         top="9px"
-        left="261px"
+        left="256px"
         borderRadius="4px"
         padding="8px 16px 8px 16px"
         {...getOverrideProps(overrides, "Button37502659")}
